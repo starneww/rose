@@ -110,7 +110,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
                 url=f"https://t.me/DuskyBotZSupport",
             ),
             InlineKeyboardButton(
-                text="🔰News Channel",
+                text="🔰 Updates",
                 url=f"https://t.me/DuskyBotZUpdates",
             )
         ],
@@ -176,8 +176,7 @@ async def start(client, message: Message, _):
         await message.reply(f"""
 [👋]({random.choice(IMG)}) Hey there {message.from_user.mention}, 
 
-   Hi,Im advanced telegram Group management Bot For helpYou Protect Your Groups & Suit For All Your Needs. 
-I currently manage about `{len(served_chats)}` groups.I have over `{len(served_users)}` users
+ԋყρҽɾɱαɳ advanced telegram Group management Bot For helpYou Protect Your Groups & Suit For All Your Needs. 
 
 ⚒ Send Me /help For Get Commands. 
 👨‍💻Dᴇᴠᴇʟᴏᴘᴇʀ : @ONLY_DUSKY
@@ -267,9 +266,8 @@ async def startcq(client,CallbackQuery, _):
             text=f"""
 👋 Hey there {CallbackQuery.from_user.mention}, 
 
-   Hi,Im advanced telegram Group management Bot For help 
+ԋყρҽɾɱαɳ advanced telegram Group management Bot For help 
 You Protect Your Groups & Suit For All Your Needs. 
-I currently manage about `{len(served_chats)}` groups.I have over `{len(served_users)}` users
 
  ⚒ Send Me /help For Get Commands. 
 👨‍💻Dᴇᴠᴇʟᴏᴘᴇʀ : @ONLY_DUSKY
@@ -284,10 +282,10 @@ async def help_parser(name, keyboard=None):
     return (
 """
 **Welcome to help menu**
-I'm a group management bot with some useful features.
+ԋყρҽɾɱαɳ group management bot with some useful features.
 You can choose an option below, by clicking a button.
 If you have any bugs or questions on how to use me, 
-have a look at my [Docs](https://t.me/DuskyBotZSupport), or head to @DuskyBotZUpdates.
+have a look at my [𝐃𝐮𝐬𝐤𝐲'𝐬 𝐒𝐮𝐩𝐩𝐨𝐫𝐭](https://t.me/DuskyBotZSupport), or head to @DuskyBotZUpdates.
 **All commands can be used with the following: / **""",
         keyboard,
     )
