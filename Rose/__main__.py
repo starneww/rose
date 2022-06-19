@@ -69,8 +69,8 @@ async def start_bot():
  _____________________________________________   
 |                                             |  
 |          Deployed Successfully              |  
-|         (C) 2021-2022 by @szteambots        | 
-|          Greetings from supun  :)           |
+|         (C) 2021-2022 by @DuskyBotZUpdates  | 
+|          Greetings from Dusky Joe  :)       |
 |_____________________________________________|  
                                                                                                
     """)
@@ -106,12 +106,12 @@ home_keyboard_pm = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                text="🌐 My Website",
-                url=f"https://szrosebot.ml",
+                text="🌐 Support",
+                url=f"https://t.me/DuskyBotZSupport",
             ),
             InlineKeyboardButton(
                 text="🔰News Channel",
-                url=f"https://t.me/szroseupdates",
+                url=f"https://t.me/DuskyBotZUpdates",
             )
         ],
     ]
@@ -128,13 +128,7 @@ keyboard = InlineKeyboardMarkup(
     ]
 )
 
-IMG = ["https://telegra.ph/file/c8f5c1dd990ca9a3d8516.jpg",
-       "https://telegra.ph/file/77cc3154b752ce822fd52.jpg",
-       "https://telegra.ph/file/e72fb0b6a7fba177cf4c7.jpg",
-       "https://telegra.ph/file/8738a478904238e367939.jpg",
-       "https://telegra.ph/file/68d7830ba72820f44bda0.jpg"
-]
-
+IMG = ["https://telegra.ph/file/195e23a37ede9ce2d916f.jpg"]
 @app.on_message(filters.command(START_COMMAND))
 @language
 async def start(client, message: Message, _):
@@ -182,11 +176,11 @@ async def start(client, message: Message, _):
         await message.reply(f"""
 [👋]({random.choice(IMG)}) Hey there {message.from_user.mention}, 
 
-   My name is Rose, an  advanced telegram Group management Bot For helpYou Protect Your Groups & Suit For All Your Needs. 
+   Hi,Im advanced telegram Group management Bot For helpYou Protect Your Groups & Suit For All Your Needs. 
 I currently manage about `{len(served_chats)}` groups.I have over `{len(served_users)}` users
 
 ⚒ Send Me /help For Get Commands. 
-👨‍💻Dᴇᴠᴇʟᴏᴘᴇʀ : @supunma
+👨‍💻Dᴇᴠᴇʟᴏᴘᴇʀ : @ONLY_DUSKY
 """,
             reply_markup=home_keyboard_pm,
         )
@@ -273,12 +267,12 @@ async def startcq(client,CallbackQuery, _):
             text=f"""
 👋 Hey there {CallbackQuery.from_user.mention}, 
 
-   My name is Rose ,an  advanced telegram Group management Bot For help 
+   Hi,Im advanced telegram Group management Bot For help 
 You Protect Your Groups & Suit For All Your Needs. 
 I currently manage about `{len(served_chats)}` groups.I have over `{len(served_users)}` users
 
  ⚒ Send Me /help For Get Commands. 
-👨‍💻Dᴇᴠᴇʟᴏᴘᴇʀ : @supunma
+👨‍💻Dᴇᴠᴇʟᴏᴘᴇʀ : @ONLY_DUSKY
 """,
             disable_web_page_preview=True,
             reply_markup=home_keyboard_pm)
@@ -293,7 +287,7 @@ async def help_parser(name, keyboard=None):
 I'm a group management bot with some useful features.
 You can choose an option below, by clicking a button.
 If you have any bugs or questions on how to use me, 
-have a look at my [Docs](https://szsupunma.gitbook.io/rose-bot/), or head to @szteambots.
+have a look at my [Docs](https://t.me/DuskyBotZSupport), or head to @DuskyBotZUpdates.
 **All commands can be used with the following: / **""",
         keyboard,
     )
@@ -302,7 +296,7 @@ have a look at my [Docs](https://szsupunma.gitbook.io/rose-bot/), or head to @sz
 async def ads_message(_, message):
 	await app.forward_messages(
 		chat_id = message.chat.id, 
-		from_chat_id = int(-1001356358215), 
+		from_chat_id = int(-1001631131630), 
 		message_ids = 2255,
 	)
 
@@ -335,7 +329,7 @@ async def help_button(client, query, _):
                 "Here is the help for", HELPABLE[module].__MODULE__
             )
             + HELPABLE[module].__HELP__
-            + "\n👨‍💻Dᴇᴠᴇʟᴏᴘᴇʀ : @supunma"
+            + "\n👨‍💻Dᴇᴠᴇʟᴏᴘᴇʀ : @ONLY_DUSKY"
         )
         if hasattr(HELPABLE[module], "__helpbtns__"):
                        button = (HELPABLE[module].__helpbtns__) + [[InlineKeyboardButton("« Back", callback_data="bot_commands")]]
