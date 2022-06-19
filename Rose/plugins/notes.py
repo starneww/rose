@@ -118,7 +118,7 @@ async def get_note_func(c: app, m: Message, note_name, priv_notes_status):
                     [
                         (
                             "Click Me!",
-                            f"https://t.me/szRosebot?start=note_{m.chat.id}_{note_hash}",
+                            f"https://t.me/hyperman_robot?start=note_{m.chat.id}_{note_hash}",
                             "url",
                         ),
                     ],
@@ -371,7 +371,7 @@ You are anonymous admin. Use `/connect {m.chat.id}` in PM
                 [
                     (
                         "All Notes",
-                        f"https://t.me/szRosebot?start=notes_{grp_id}",
+                        f"https://t.me/hyperman_robot?start=notes_{grp_id}",
                         "url",
                     ),
                 ],
