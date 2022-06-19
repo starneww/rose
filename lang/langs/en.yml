@@ -1,7 +1,7 @@
 name : English
 
 #menu - menu.py
-menu : "ԋყρҽɾɱαɳ was created on **June 19, 2022**. \nWe are currently developing and maintaining plugins of **🧚‍♀ 𝙆𝙐𝙏𝙏𝙔 𝘼𝙉𝙂𝙀𝙇 🧚‍♀**  and **🐿 𝙎𝙦𝙪𝙞𝙧𝙧𝙚𝙡 🐿**, using only the **Pyrogram** library.\n\n• **creator** : [𓆩●⃝ 𝘿𝙐𝙎𝙆𝙔乛|⁪⁬⁮⁮⁮⁮ 𝙅𝙊𝙀𓆪👿⃤✘](https://t.me/ONLY_DUSKY)\n• **Language** : [python 3](https://www.python.org/)\n• **Database** : [Mongo db](https://cloud.mongodb.com/)\n• **Server** : [Heroku](https://heroku.com/)\n• **Build Version** : `2.0`\n\n@DuskyBotZUpdates"
+menu : "ԋყρҽɾɱαɳ was created on **June 19, 2022**. \nWe are currently developing and maintaining plugins of **[🧚‍♀ 𝙆𝙐𝙏𝙏𝙔 𝘼𝙉𝙂𝙀𝙇 🧚‍♀](https://t.me/KuttyAngelBot)**  and **[🐿 𝙎𝙦𝙪𝙞𝙧𝙧𝙚𝙡 🐿](https://t.me/Squirrelletbot)**, using only the **Pyrogram** library.\n\n• **creator** : [𓆩●⃝ 𝘿𝙐𝙎𝙆𝙔乛|⁪⁬⁮⁮⁮⁮ 𝙅𝙊𝙀𓆪👿⃤✘](https://t.me/ONLY_DUSKY)\n• **Language** : [python 3](https://www.python.org/)\n• **Database** : [Mongo db](https://cloud.mongodb.com/)\n• **Server** : [Heroku](https://heroku.com/)\n• **Build Version** : `2.0`\n\n@DuskyBotZUpdates"
 back : "« Back"
 
 #main - main.py
