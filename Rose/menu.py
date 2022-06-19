@@ -11,12 +11,12 @@ fbuttons = InlineKeyboardMarkup(
                 text="👥Support Group", url="https://t.me/DuskyBotZSupport"
             ),
             InlineKeyboardButton(
-                text="👤News Channel", url="https://t.me/DuskyBotZUpdates"
+                text="👤Updates Channel", url="https://t.me/DuskyBotZUpdates"
             )
         ], 
         [
             InlineKeyboardButton(
-                text="⚒ Source Code", url="https://t.me/KuttyAngelXUpdates"
+                text="⚒ Owner", url="https://t.me/ONLY_DUSKY"
             ),
             InlineKeyboardButton(
                 text="📓 Developer", url="https://t.me/ONLY_DUSKY"
